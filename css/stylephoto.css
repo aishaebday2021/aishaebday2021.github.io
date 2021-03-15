@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5abfb);
+ 	background-size:  400% 400%;
+	
+  animation: gradient 8s ease infinite;
+}
+
+.container {
+	max-width: 140rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Anton", sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	/* color: #1a1a1a; */
+	color: white;
+	letter-spacing: 0.2rem;
+	
+	/* background: yellow; */
+}
+
+.heading span {
+	display: block;
+}
+
